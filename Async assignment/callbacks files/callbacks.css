@@ -1,0 +1,53 @@
+/* styles for entire body */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(252, 195, 230);
+}
+/* styles for main container */
+#container {
+    text-align: center;
+}
+/* styles for button */
+#myButton {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+/* styles for button on hover */
+#myButton:hover {
+    background-color: #45a049;
+}
+/* styles for output container */
+#outputContainer {
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: none;
+    overflow-y: auto;
+    text-align: left;
+    margin: 0 auto;
+    background-color: #fff;
+}
+/* styles for unordered list */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+/* styles for unordered list items */
+li {
+    margin-bottom: 10px;
+}
+/* styles for unordered list items for odd index */
+li:nth-child(odd) {
+    background-color: #f2f2f2;
+}
